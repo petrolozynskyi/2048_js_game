@@ -1,13 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Miami</title>
-    <link rel="stylesheet" href="./styles/main.scss">
-    <script src="scripts/main.js" defer></script>
+    <meta charset="utf-8">
+    <title>2048 Game Online</title>
+    <link rel="stylesheet" href="./styles/main.css">
+    <script type="text/javascript" src="scripts/main.js"></script>
   </head>
   <body>
-    <h1>Landing Page</h1>
+    <div class="container">
+      <div class="info">
+        <h1>2048</h1>
+        <div class="score-container">
+          <div class="score-title">score</div>
+          <div id="score">0</div>
+        </div>
+      </div>
+      <div class="result" id="result">Join the numbers and get to the <b>2048</b> tile!</div>
+      <div class="grid"></div>
+      <div class="container_new-game">
+        <button class="new-game" id="new-game">New Game</button>
+      </div>
+    </div>
   </body>
 </html>
